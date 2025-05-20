@@ -1,0 +1,19 @@
+<web-app>
+  <servlet>
+    <servlet-name>AddFeeServlet</servlet-name>
+    <servlet-class>com.fee.servlet.AddFeeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddFeeServlet</servlet-name>
+    <url-pattern>/AddFeeServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewFeeServlet</servlet-name>
+    <servlet-class>com.fee.servlet.ViewFeeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewFeeServlet</servlet-name>
+    <url-pattern>/ViewFeeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
